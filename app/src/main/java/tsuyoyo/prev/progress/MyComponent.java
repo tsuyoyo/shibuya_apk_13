@@ -4,11 +4,8 @@
 
 package tsuyoyo.prev.progress;
 
-import javax.inject.Singleton;
-
 import dagger.Component;
 
-@Singleton
 @ViewModelScope
 @Component(modules = { MyModule.class })
 interface MyComponent {
